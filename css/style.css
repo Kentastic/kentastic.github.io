@@ -178,6 +178,12 @@ footer span {
 	text-align: center;
 }
 
+.home-content-temp {
+	width: 960px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
 .home-content {
 	float: left;
 	width: 960px;
