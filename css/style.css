@@ -64,6 +64,23 @@ h1 {
 	margin: 10px 0;
 }
 
+.logo-text {
+	display: inline;
+	position: relative;
+	text-align: left;
+	top: 5px;
+}
+
+.game-desc {
+	font-size: 0.8em;
+}
+
+.game-title {
+	margin: 10px 0;
+	font-size: 1.8em;
+	color: #00A23F;
+}
+
 .container {
 	width: 960px;
 	margin: 50px auto;
@@ -262,6 +279,12 @@ footer span {
 
 .game-section {
 	width: 960px;
+	padding: 5px 0 50px;
+}
+
+.game-section h1 {
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .game-preview {
@@ -270,9 +293,10 @@ footer span {
 
 .game-preview p {
 	margin-top: 0;
+	font-size: 0.8em;
 }
 
-.game-preview a {
+.game-preview a, .profile-text a {
 	color: #00ed5c;
 }
 
